@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Page Title</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta charset="UTF-8">
+        <meta name="theme-color" content="#4A0493">
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+        
+        <style>
+            body {
+    padding:0;
+    margin:0;
+    font-family: "Helvetica Neue", Arial, sans-serif;
+}
+
+html {
+            scroll-behavior: smooth;
+        }
+*{
+    box-sizing:border-box;
+}
+
+header{
+    width:100%;
+    padding-top:50px;
+    padding-bottom:80px;
+    background-color:#4A0493;
+    text-align:center;
+    color:white;
+}
+
+footer{
+    width:100%;
+    padding:50px;
+    background-color:rgba(0,0,0,0.9);
+    color:white;
+}
+
+footer a{
+    color:#175BFF;
+    font-size:17px;
+}
+
+.at{
+    text-decoration:none;
+    font-size:18px;
+    margin-left:18px;
+    color:blue;
+}
+.text-c{
+    padding-left:10px;
+    padding-right:10px;
+}
+.hl{
+    width:fit-content;
+    padding:60px;
+    font-size:40px;
+    font-weight:600;
+    margin:auto;
+    color:white;
+    border-radius:10px;
+    
+}
+p{
+    font-family:Arial;
+    line-height:1.5;
+    text-align: justify;
+}
+#html{
+    background-color:rgb(255,103,0);
+}
+
+#css{
+    background-color:rgb(0,181,255);
+}
+#js{
+    background-color:rgb(255,204,0);
+}
+#node{
+    background-color:rgb(0,149,0);
+}
+#mon{
+    background-color:rgb(0,200,0);
+}
+
+.cnt{
+    text-align:center;
+}
+.ent{
+    padding:10px;
+    background-color:Honeydew;
+}
+.main{
+    width:100%;
+    height:auto;
+    position: -webkit-sticky;
+    position: sticky;
+    top:0;
+}
+.cont-1{
+    width:100%;
+    background-color:#4A0493;
+    height:auto;
+    padding:6px;
+}
+.name{
+    color:white;
+    font-size:larger;
+    margin:4px;
+}
+#line{
+    font-size:18px;
+    margin:4px;
+    color: white;
+    font-weight:100;
+    float:right;
+}
+
+#fa{
+    font-size:18px;
+    margin:4px;
+    color:white;
+    font-weight:100;
+    float:right;
+    display:none;
+}
+
+#panel{
+  list-style-type: none;
+  width:100%;
+  background-color: #f1f1f1;
+  padding:0;
+  display:none;
+}
+li a {
+  display: block;
+  color: #000;
+  padding: 8px 16px;
+  text-decoration: none;
+  cursor:none;
+}
+li a:hover {
+  background-color: #555;
+  color: white;
+}
+
+        </style>
+    </head>
+    <body>
+        <div class="main">
+        <div class="cont-1">
+        <span class="name">Account</span>
+            
+            <i class="fa fa-bars" id="line"></i>
+                <i class="fa fa-close" id="fa"></i>
+            </div>
+        <ul id="panel">
+  <li><a href="#about">Account</a></li>
+  <li><a href="#news">Add New</a></li>
+  <li><a href="#contact">Contact</a></li>
+  <li><a href="#about">Logout</a></li>
+  <li><a href="#about">About</a></li>
+</ul>
+</div>
+        <header id="home">
+       <h1>LEARN TO CODE</h1>
+        </header>
+        <br>
+        <div class="cont">
+        <a href="#html" class="at">HTML</a>
+        <hr>
+        <a href="#css" class="at">CSS</a>
+        <hr>
+        <a href="#js" class="at">JavaScript</a>
+        <hr>
+        <a href="#node" class="at">Node JS</a>
+        <hr>
+        <a href="#mon" class="at">Mongodb</a>
+        <hr>
+        </div>
+        <br><br />
+            <div class="ent">
+                <h1 class="cnt">Web Development</h1>
+                <p>Web development is the process of creating dynamic and interactive websites or web applications using various programming languages, frameworks, and tools. It involves designing, coding, testing, and maintaining websites to ensure they meet the needs of users and businesses. Web developers use languages such as HTML, CSS, JavaScript, and PHP to build the front-end and back-end of a website. They may also use various frameworks and libraries such as React, Angular, and jQuery to streamline the development process. In addition to technical skills, web developers need to have a good understanding of user experience, design principles, and search engine optimization (SEO) to create effective and engaging websites.</p>
+            </div>
+        <br><br>
+        <div class="text-c">
+        <div class="hl" id="html">HTML</div>
+            <h2>HTML</h2>
+            <p><b>HTML (Hypertext Markup Language)</b> is a markup language used to create web pages and other documents that can be displayed in a web browser. It is the standard language for creating web pages and is used to structure content on the web. HTML allows developers to create text-based documents that can contain images, videos, audio, and other types of media.</p>
+          <p>HTML uses tags to define the structure and layout of the content on a web page. Tags are enclosed in angle brackets and indicate how text and other elements should be displayed on the page. HTML tags can be used to create headings, paragraphs, lists, links, images, and other types of content.</p>
+          <p>HTML is often used in conjunction with other web technologies like CSS (Cascading Style Sheets) and JavaScript to create more dynamic and interactive web pages. CSS is used to define the visual style and layout of web pages, while JavaScript is used to add interactivity and dynamic functionality to web pages.</p>
+          <br><br>
+   <div class="hl" id="css">CSS</div>
+          <h2>CSS</h2>
+          <p><b>CSS stands for Cascading Style Sheets</b>. It is a style sheet language used for describing the presentation of a document written in a markup language. CSS is primarily used to style HTML documents and provide visual control over web pages, such as colors, layouts, fonts, and more.</p>
+          <p>Using CSS, web developers can create more responsive and visually appealing web pages by defining how elements are displayed, and how they behave in response to user interactions. CSS can be used to separate the presentation layer from the content layer of a web page, making it easier to maintain and update the site's design.</p>
+          <br><br>
+  <div class="hl" id="js">JS</div>
+          <h2>JavaScript</h2>
+          <p>JavaScript is a programming language used to create interactive and dynamic web pages. It is a client-side scripting language, meaning that it runs within the user's web browser and interacts with the document object model (DOM) of a web page to create dynamic effects and respond to user input.</p>
+          <p>JavaScript can be used to add interactivity to web pages, such as validating forms, creating dynamic menus, and implementing visual effects like animations and slideshows. It is also used to build web applications, including games, interactive maps, and social media platforms.</p>
+          <p>JavaScript is a high-level language that is interpreted, rather than compiled, which means that it can be written directly into HTML documents or included as a separate file and linked to the HTML page. JavaScript code can also be used on the server-side, using platforms like Node.js, to build back-end applications and APIs.</p>
+          <br><br>
+  <div class="hl" id="node">Node JS</div>
+          <h2>Node JS</h2>
+          <p>Node.js is a popular open-source, cross-platform, server-side JavaScript runtime environment that allows developers to build server-side applications using JavaScript. It is built on the V8 JavaScript engine from Google Chrome and is designed to be scalable and efficient, making it ideal for building high-performance, real-time applications.</p>
+          <p>Node.js provides developers with a number of key features that are important for building server-side applications, such as:</p>
+          <ul>
+              <li>Non-blocking I/O: Node.js uses an event-driven, non-blocking I/O model that allows it to handle a large number of simultaneous connections with low latency.</li><br>
+             <li>Asynchronous programming: Node.js uses asynchronous programming techniques, such as callbacks and Promises, to avoid blocking the event loop and maximize performance.</li><br>
+             <li>Modular architecture: Node.js has a modular architecture that makes it easy to reuse code and share functionality across multiple projects.</li><br>
+             <li>Large ecosystem: Node.js has a large and active ecosystem of modules and packages, which makes it easy to find and integrate third-party libraries and tools into your projects.</li>
+          </ul>
+          <br><br>
+  <div class="hl" id="mon">MongoDB</div>
+          <h2>Mongodb</h2>
+          <p>MongoDB is a popular open-source, cross-platform document-oriented NoSQL database system. It stores data in flexible, JSON-like documents, which allows for dynamic schemas and easy integration with web applications.</p>
+          <p>Unlike traditional relational databases, MongoDB does not use tables or rows to store data. Instead, it uses collections and documents, where each document can have a unique schema and structure. This makes it easier to store and query data for applications that have changing or evolving requirements.</p>
+          <p>MongoDB is known for its scalability, performance, and flexibility. It can be used for a wide range of applications, from small-scale web applications to large-scale enterprise systems. It supports features like automatic sharding and replication, which help ensure high availability and fault tolerance.</p>
+          <p>Overall, MongoDB is a powerful and flexible database system that offers a unique approach to storing and querying data. It is widely used by developers and organizations around the world, and has a large and active community of users and contributors.</p>
+        </div>
+        <footer>
+        <a href="#home">Home</a><br><br>
+  © 2023 Learn code.com. All rights reserved.
+        </footer>
+        <script>
+            $(document).ready(function(){
+  $("#line").click(function(){
+    $("#panel").slideDown(400);
+    $("#line").hide();
+    $("#fa").show();
+  });
+  $("#fa").click(function(){
+    $("#panel").slideUp(400);
+    $("#fa").hide();
+    $("#line").show();
+    });
+});
+        </script>
+    </body>
+</html>
